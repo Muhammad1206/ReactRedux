@@ -1,0 +1,25 @@
+.nav {
+  grid-area: nav;
+  background-color: rgb(189, 23, 230);
+  padding: 20px;
+}
+.item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: .1rem .1rem;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-top: .2rem;
+font-size: 20px;
+background-color: rgb(131, 245, 24);
+}
+.item a{
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.item a.activeLink{
+  color:rgb(255, 0, 0);
+}

@@ -1,0 +1,16 @@
+.item {
+  color: rgb(39, 106, 160);
+}
+.item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.like span{
+margin-right: 7px;
+}
+.likebnt button {
+  margin-left: 7px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

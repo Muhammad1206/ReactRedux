@@ -1,0 +1,12 @@
+.header {
+  grid-area: header;
+  background-color: rgb(23, 230, 23);
+  display: flex;
+  justify-content: space-between;
+}
+.header img {
+  width: 80px;
+}
+.link {
+  margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+.descriptionBlock{
+    padding: 10px;
+}
+.container img {
+    width: 1000px;
+    height: 600px;
+}
+.avatar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.info {
+    width: 700px;
+}

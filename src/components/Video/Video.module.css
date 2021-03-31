@@ -1,0 +1,30 @@
+.container {
+    width: 900px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.items video{
+    width: 200px;
+    height: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.likes {
+    width: 500px;
+    height: 110px;
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: yellowgreen;
+}
+.likes span{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.likebtn button {
+    margin-left: 20px;
+}

@@ -1,0 +1,44 @@
+.container {
+    width: 230px;
+    height: 500px;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.password input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login input {
+    margin-bottom: 5px;
+}
+.button button {
+    width: 210px;
+    height: 40px;
+    background-color: rgb(23, 77, 228);
+    color: beige;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.button button:active {
+background-color:  rgb(49, 90, 202);
+}
+.socialLinks {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.socialLinks img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}

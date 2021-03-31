@@ -1,0 +1,26 @@
+.postsBlock{
+  padding: 10px;
+}
+.posts{
+  margin-top: 10px;
+}
+.addBTN button{
+  width: 150px;
+  height: 30px;
+  margin-top: 8px;
+  margin-left: 255px;
+  border-radius: 12px;
+  color: yellow; 
+  background-color: black;
+  font-size: larger;
+}
+.text textarea{
+  width: 400px;
+  height: 35px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: large;
+}
+.posts{
+  width: 1000px;
+}
