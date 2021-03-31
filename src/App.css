@@ -1,0 +1,32 @@
+.app-wrapper {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+
+   grid-template-areas: 
+   "header header"
+   "nav content";
+
+grid-template-rows: 90px 1fr;
+grid-template-columns: 2fr 10fr;
+grid-gap: 3px;
+}
+
+.app-wrapper-content{
+   width: 1000px;
+   grid-area: content;
+   background-color: rgb(7, 9, 20);
+}
+
+
+@media (max-width: 600px){
+   .app-wrapper {
+      width: 100px;
+      margin: 0px;
+      padding: 0px;
+   }
+   .app-wrapper-content{
+      width: 400px;
+      grid-gap: 1px;
+   }
+}
