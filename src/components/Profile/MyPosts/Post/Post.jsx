@@ -1,18 +1,16 @@
 import React from "react";
 import classes from "./Post.module.css";
 import avatarPhoto from '../../../../assets/images/avatar.jpg';
+import likePhoto from '../../../../assets/images/like.png';
 
 const Post = (props) => {
   const [counter, setCounter] = React.useState(props.likesCount)
-  const [dislike, setDislike] = React.useState(0);
+
 
   const incrementLike =()=>{
   setCounter(counter +1)
   }
-  const incrementDislike =()=>{
-    debugger;
-  setDislike(dislike +1)
-  }
+
   return (
     <div>
       <div className={classes.posts}>
@@ -22,10 +20,8 @@ const Post = (props) => {
           </div>
           <div className= {classes.like}>
             <span>Like: {counter}</span>  
-            <span>Dislike: {dislike}</span>
             <div className={classes.likebnt}>
-            <button onClick={incrementLike}>Like</button>
-            <button onClick={incrementDislike}>Dislike</button>
+            <img src={likePhoto} alt='Like' onClick={incrementLike} />
             </div>
           </div>
       </div>

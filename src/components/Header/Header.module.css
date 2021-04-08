@@ -10,3 +10,8 @@
 .link {
   margin-top: 20px;
 }
+.link a img{
+width: 35px;
+height: 40px;
+margin-left: 20px;
+}

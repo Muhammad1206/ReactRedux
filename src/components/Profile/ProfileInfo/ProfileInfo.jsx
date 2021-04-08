@@ -5,6 +5,9 @@ import avatarPhoto from "../../../assets/images/avatar.jpg";
 import Prelaoder from './../../common/Prelaoder/Prelaoder';
 
 let ProfileInfo = (props) => {
+  if(!props.profile){
+    return <Prelaoder/>
+  }
   return (
     <div className={classes.container}>
       <div className={classes.bwp}></div>
