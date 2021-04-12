@@ -2,8 +2,11 @@ import React from "react";
 import classes from "./Login.module.css"
 
 
-
 const Login = () => {
+    
+    const login = (l) => {
+     const text = l.target.value; 
+    }
     return (
         <div className={classes.container}>
         <div className={classes.login}>
