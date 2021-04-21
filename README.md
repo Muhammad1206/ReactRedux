@@ -1,4 +1,4 @@
-### Все библиотеки которые я использую:
+### Все библиотеки которые я использовал:
 
 1) [React](https://ru.reactjs.org/) - JavaScript-библиотека для создания пользовательских интерфейсов. 
 2) [Redux](https://redux.js.org/) - Контейнер предсказуемого состояния для JS-приложений.
@@ -12,8 +12,7 @@
 Отменить запросы
 Автоматические преобразования для данных JSON
 Поддержка на стороне клиента для защиты от XSRF
-5) [MATERIAL-UI](https://material-ui.com/ru/) - React компоненты для быстрой и легкой веб-разработки. Создайте свой собственный дизайн или начните с Material Design.
-6) [Redux-form](https://www.npmjs.com/package/redux-form) - redux-formработает с React Redux, чтобы HTML-форма в React могла использовать Redux для хранения всего своего состояния.
+5) [Redux-form](https://www.npmjs.com/package/redux-form) - redux-form работает с React Redux, чтобы HTML-форма в React могла использовать Redux для хранения всего своего состояния.
 
 ### Видео-уроки и онлайн уроки: 
 [It-kamasutra](https://it-kamasutra.com/) - Учим React + Redux. Бесконечное online-обучение по фиксированной цене. 
