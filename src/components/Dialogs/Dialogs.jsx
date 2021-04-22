@@ -14,7 +14,6 @@ const Dialogs = (props) => {
     <Messages message={m.message} key={m.id} />
   ));
   const newMessageBody = state.newMessageBody;
-
   const onSendMessageClick = () => {
     props.sendMessage();
   };
