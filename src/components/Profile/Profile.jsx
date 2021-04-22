@@ -3,6 +3,7 @@ import classes from "./Profile.module.css";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MyPostsContainer from './MyPosts/MyPostsContainer';
 
+
 let Profile = (props) => {
   return (
     <div className={classes.container}>
@@ -11,6 +12,5 @@ let Profile = (props) => {
     </div>
   );
 };
-
 
 export default Profile;
